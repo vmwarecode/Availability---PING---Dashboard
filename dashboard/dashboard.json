@@ -1,0 +1,142 @@
+{
+   "dashboards": [{
+      "autoswitchEnabled": false,
+      "columnCount": 1,
+      "columnProportion": "1-1",
+      "creationTime": 1604030116654,
+      "dashboardNavigations": {},
+      "description": "",
+      "disabled": false,
+      "gridsterMaxColumns": 12,
+      "hidden": false,
+      "homeTab": false,
+      "id": "2c30c5a8-c7ed-4e72-a509-8193f08763f4",
+      "importAttempts": 0,
+      "importComplete": true,
+      "lastUpdateTime": 1604329654944,
+      "lastUpdateUserId": "89b215a9-bdd6-4c09-993c-bc29030b68c7",
+      "locked": false,
+      "name": "Availability (PING)",
+      "rank": 0,
+      "shared": false,
+      "states": [],
+      "temporary": false,
+      "userId": "89b215a9-bdd6-4c09-993c-bc29030b68c7",
+      "widgetInteractions": [],
+      "widgets": [
+         {
+            "collapsed": false,
+            "config": {
+               "badgeMode": {"badgeMode": false},
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "resource": {
+                  "resourceId": "resource:id:0_::_",
+                  "resourceName": "Ping World"
+               },
+               "selfProvider": {"selfProvider": true},
+               "title": "Health"
+            },
+            "gridsterCoords": {
+               "h": 21,
+               "w": 9,
+               "x": 1,
+               "y": 1
+            },
+            "height": 1176,
+            "id": "6688f981-ea16-470d-b5c2-26c21accd85b",
+            "title": "Health",
+            "type": "IntSummaryHealth"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "alertAction": [],
+               "alertImpact": [],
+               "criticalityLevel": [],
+               "customFilter": {
+                  "excludedResources": null,
+                  "filter": [],
+                  "includedResources": null
+               },
+               "depth": 2,
+               "filterMode": "customFilter",
+               "mode": "resource",
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "relationshipMode": {"relationshipMode": -1},
+               "resource": [{
+                  "id": "resource:id:0_::_",
+                  "name": "Ping World"
+               }],
+               "selfProvider": {"selfProvider": true},
+               "state": [],
+               "status": [],
+               "tagFilter": {
+                  "path": ["/source/kind/kind:resourceKind:id:0_::_"],
+                  "value": {
+                     "adapterInstance": [],
+                     "adapterKind": [],
+                     "bus": [],
+                     "collector": [],
+                     "day": [],
+                     "exclaim": false,
+                     "healthRange": [],
+                     "kind": ["resourceKind:id:0_::_"],
+                     "maintenanceSchedule": [],
+                     "state": [],
+                     "status": [],
+                     "tag": [],
+                     "tier": []
+                  }
+               },
+               "title": "Alert List",
+               "type": []
+            },
+            "gridsterCoords": {
+               "h": 21,
+               "w": 3,
+               "x": 10,
+               "y": 1
+            },
+            "height": 1178,
+            "id": "26a50aaa-89f8-415c-a3cd-a84070d3e648",
+            "states": [
+               {
+                  "key": "permAlertGrid_perm_widget_2c30c5a8-c7ed-4e72-a509-8193f08763f4_26a50aaa-89f8-415c-a3cd-a84070d3e648",
+                  "value": "o%3Acolumns%3Da%253Ao%25253Aid%25253Ds%2525253Ah1%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah2%255Eo%25253Aid%25253Ds%2525253Ah3%255Eo%25253Aid%25253Ds%2525253Ah4%255Eo%25253Aid%25253Ds%2525253Ah5%255Eo%25253Aid%25253Ds%2525253Ah6%255Eo%25253Aid%25253Ds%2525253Ah7%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah8%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah9%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah10%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah11%255Eo%25253Aid%25253Ds%2525253Ah12%255Eo%25253Aid%25253Ds%2525253Ah13%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah14%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah15%25255Ehidden%25253Db%2525253A0%5EstoreState%3Do%253Asorters%253Da%25253Ao%2525253Aroot%2525253Ds%252525253Adata%2525255Eproperty%2525253Ds%252525253AalertLevel%2525255Edirection%2525253Ds%252525253ADESC%2525255Eid%2525253Ds%252525253AalertLevel"
+               },
+               {
+                  "key": "permViewMode_widget_2c30c5a8-c7ed-4e72-a509-8193f08763f4_26a50aaa-89f8-415c-a3cd-a84070d3e648",
+                  "value": "s%3Atime"
+               },
+               {
+                  "key": "perm_toolbarVisible_widget_2c30c5a8-c7ed-4e72-a509-8193f08763f4_26a50aaa-89f8-415c-a3cd-a84070d3e648",
+                  "value": "b%3A1"
+               },
+               {
+                  "key": "permDateFilter_widget_2c30c5a8-c7ed-4e72-a509-8193f08763f4_26a50aaa-89f8-415c-a3cd-a84070d3e648",
+                  "value": "s%3A%7B%22dateRange%22%3A%22last30Days%22%2C%22dateFrom%22%3Anull%2C%22dateTo%22%3Anull%2C%22timeFrom%22%3Anull%2C%22timeTo%22%3Anull%7D"
+               }
+            ],
+            "title": "Alert List",
+            "type": "AlertList"
+         }
+      ]
+   }],
+   "entries": {
+      "resource": [{
+         "adapterKindKey": "PingAdapter",
+         "identifiers": [],
+         "internalId": "resource:id:0_::_",
+         "name": "Ping World",
+         "resourceKindKey": "ping_world"
+      }],
+      "resourceKind": [{
+         "adapterKindKey": "PingAdapter",
+         "internalId": "resourceKind:id:0_::_",
+         "resourceKindKey": "ip_type"
+      }]
+   },
+   "uuid": "213fecc9-22b5-479b-99a6-c56d5f17d204"
+}
